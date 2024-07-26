@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <script defer src="./src/script.js"></script>
+  <link rel="stylesheet" href="./src/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heróis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Heróis</h1>
+
+    <input type="text" id="searchInput" placeholder="Buscar herói..." class="search-bar">
+
+    <div class="hero-list">
+      <div class="hero-card" data-name="Homem-Formiga" data-strength="8" data-agility="6" data-intelligence="7">
+        <img src="./src/assets/ant.jpg" alt="Herói">
+        <h2>Homem-Formiga</h2>
+        <p>Dr. Hank Pym transforma um talentoso ladrão no herói Homem-Formiga. Ele quer impedir que seu antigo pupilo
+          consiga replicar a fórmula da roupa que dá o poder do encolhimento, força sobre-humana e a capacidade de
+          controlar um exército de formigas</p>
+      </div>
+      <div class="hero-card" data-name="Capitão-America" data-strength="7" data-agility="9" data-intelligence="6">
+        <img src="./src/assets/capitao.jpg" alt="Herói">
+        <h2>Capitão-America</h2>
+        <p>Steve Rogers era um rapaz franzino que, durante a Segunda Guerra Mundial, tinha como maior sonho servir aos
+          Estados Unidos na luta contra os nazistas. Mas sua saúde frágil seria um eterno empecilho, se o rapaz não
+          aceitasse participar em um experimento que poderia transformá-lo em um novo homem..</p>
+      </div>
+      <div class="hero-card" data-name="Cavaleiro-Da-Lua" data-strength="6" data-agility="8" data-intelligence="6">
+        <img src="./src/assets/cavaleirodalua.jpg" alt="Herói">
+        <h2>Cavaleiro-Da-Lua</h2>
+        <p>Cavaleiro da Lua conta a história de Steven Grant (Oscar Isaac), um homem que vive assombrado por memórias e
+          sonhos perturbadores de “outra vida”. Grant descobre que tem transtorno dissociativo de identidade e que
+          compartilha um corpo com o mercenário Marc Spector, o qual também é um avatar do deus egípcio Khonshu</p>
+      </div>
+      <div class="hero-card" data-name="drax"  data-strength="8" data-agility="4" data-intelligence="3">
+        <img src="./src/assets/drax.jpg" alt="Herói">
+        <h2>Drax</h2>
+        <p>Drax era um ser humano cuja família foi atacada e morta pelo vilão Thanos. Precisando de um campeão para
+          combater Thanos, o ser conhecido como Kronos tomou o espírito de Arthur e colocou-o em um novo e poderoso
+          corpo e então Drax, o Destruidor nasceu. Os poderes de Drax incluíam maior resistência, vôo, e a capacidade de
+          projetar rajadas de energia de suas mãos.</p>
+      </div>
+      <div class="hero-card" data-name="elektro"  data-strength="8" data-agility="2" data-intelligence="5">
+        <img src="./src/assets/elektro.jpg" alt="Herói">
+        <h2>Elektro</h2>
+        <p>Electro, alto-ego de Maxwell Dillon, é um vilão do Homem-Aranha que aparecem nas histórias em quadrinhos
+          publicadas pela Marvel Comics. Maxwell Dillon, o primeiro Electro, é um inimigo do Homem-Aranha, que ganhou a
+          habilidade de controlar a eletricidade depois de ser atingido por um raio enquanto trabalhava em uma linha de
+          energia. Electro desde então se tornou um dos adversários mais duradouros do Homem-Aranha tornando-se parte da
+          equipe desonesta conhecido como O Sexteto Sinistro.</p>
+      </div>
+      <div class="hero-card" data-name="Falcão"  data-strength="6" data-agility="10" data-intelligence="7">
+        <img src="./src/assets/falcao.jpg" alt="Herói">
+        <h2>Falcão</h2>
+        <p>Apresentado originalmente como um ajudante do Capitão América nos quadrinhos, Sam Wilson alçou voo fazendo
+          sua própria jornada do herói. Originalmente conhecido como o Falcão, ele chegou a assumir o manto de Sentinela
+          da Liberdade, e esse arco finalmente está sendo adaptado para o Universo Cinematográfico da Marvel.</p>
+      </div>
+      <div class="hero-card" data-name="Galactus"  data-strength="10" data-agility="10" data-intelligence="10">
+        <img src="./src/assets/galactus.jpg" alt="Herói">
+        <h2>Galactus</h2>
+        <p>Galactus, também conhecido como Devorador de Mundos, é um personagem de histórias em quadrinhos, uma entidade
+          cósmica dentro do universo Marvel da Marvel Comics.</p>
+      </div>
+      <div class="hero-card" data-name="Groot"  data-strength="2" data-agility="2" data-intelligence="4">
+        <img src="./src/assets/groot.jpg" alt="Herói">
+        <h2>Groot</h2>
+        <p>Groot era um Colossus Floral do Planeta X, a capital dos mundos das plantas. O rebento que viria a ser
+          conhecido como "Groot" veio de um "Enobled Sap-Line" e dotado de engenharia superposicional
+          quasi-dimensional... pelo menos, de acordo com Maximus, o Louco.</p>
+      </div>
+      <div class="hero-card" data-name="Gwen Stacy"  data-strength="7" data-agility="8" data-intelligence="10">
+        <img src="./src/assets/gwen.jpg" alt="Herói">
+        <h2>Gwen Stacy</h2>
+        <p>Gwendolyn Maxine Stacy é uma personagem das histórias em quadrinhos da Marvel Comics, tendo sido namorada de
+          Peter Parker, o Homem-Aranha. Criação de Stan Lee e Steve Ditko, ela apareceu pela primeira vez em The Amazing
+          Spider-Man #31. Foi morta pelo Duende Verde em The Amazing Spider-Man #121.</p>
+      </div>
+      <div class="hero-card" data-name="Hulk-Booster"  data-strength="9" data-agility="3" data-intelligence="10">
+        <img src="./src/assets/hulkbooster.jpg" alt="Herói">
+        <h2>Hulk-Booster</h2>
+        <p>Tony Stark, homem de posse e inteligência, sabe o que fazer na hora de enfrentar um Hulk raivoso: construir
+          um exotraje para amplificar a armadura do Hulkbuster. Turbinado para ter uma força e poder máximos, com muita
+          munição pesada, esse Campeão é necessário para aqueles que querem ESMAGAR!</p>
+      </div>
+      <div class="hero-card" data-name="Madame-Hidra"  data-strength="8" data-agility="6" data-intelligence="7">
+        <img src="./src/assets/madame.jpg" alt="Herói">
+        <h2>Madame-Hidra</h2>
+        <p>Ophelia Sarkissian é uma supervilã que aparece nos quadrinhos americanos publicados pela Marvel Comics.
+          Criado por Jim Steranko, o personagem apareceu pela primeira vez em Capitão América #110. Ophelia Sarkissian é
+          uma inimiga dos X-Men e dos Vingadores.</p>
+      </div>
+      <div class="hero-card" data-name="Motoqueiro-Fantasma"  data-strength="7" data-agility="10" data-intelligence="6">
+        <img src="./src/assets/motoqueiro.jpg" alt="Herói">
+        <h2>Motoqueiro-Fantasma</h2>
+        <p>Johnny Blaze foi o primeiro Motoqueiro Fantasma da editora. Ele era um dublê que trabalhava com motocicletas
+          e se uniu ao Espírito da Vingança chamado Zarathos para salvar o homem que ele tinha como pai da morte. Esse
+          acordo, no entanto, custou bem alto para Blaze.</p>
+      </div>
+      <div class="hero-card" data-name="Nova"  data-strength="5" data-agility="6" data-intelligence="7">
+        <img src="./src/assets/nova.jpg" alt="Herói">
+        <h2>Nova</h2>
+        <p> o útlimo sobrevivente da destruição de Xandar, que foi comandada por Thanos na busca pelas Joias do
+          Infinito. O super-herói tem alguns poderes clássicos, como força, velocidade, agilidade e reflexos
+          sobre-humanos.</p>
+      </div>
+      <div class="hero-card" data-name="Octopus"  data-strength="8" data-agility="8" data-intelligence="8">
+        <img src="./src/assets/octopus.jpg" alt="Herói">
+        <h2>Octopus</h2>
+        <p> o supremo cientista do seu universo, colocando a combinação de sua tecnologia e conhecimento de feitiçaria
+          contra a magia de Estranho; Zom: o demônio mais poderoso existente, além da capacidade da própria Eternidade
+          para derrotá-lo. Imperator: vilão que usa ciência para matar magos.</p>
+      </div>
+      <div class="hero-card" data-name="Pantera-Negra"  data-strength="9" data-agility="10" data-intelligence="7">
+        <img src="./src/assets/pantera.jpg" alt="Herói">
+        <h2>Pantera-Negra</h2>
+        <p> Pantera Negra é um super-herói que vive em Wakanda (um local escondido na África) e, logo após se tornar
+          rei, sem a certeza de que está preparado para carregar tal fardo, tem o desafio de lhe dar com uma ameaça ao
+          seu trono, fruto de um passado oculto de sua família.</p>
+      </div>
+      <div class="hero-card" data-name="Rocket"  data-strength="3" data-agility="7" data-intelligence="9">
+        <img src="./src/assets/rocket.jpg" alt="Herói">
+        <h2>Rocket</h2>
+        <p>Rocket é um guaxinim que nasceu em uma colônia de pessoas com distúrbios mentais e passou por uma série de
+          experimentos para se tornar um ser com consciência humana. Um pouco disso já foi dito nos filmes, mas pelo
+          jeito teremos algumas coisas extras nesse meio.</p>
+      </div>
+
+    </div>
+
+    <button id="battleButton">Iniciar Batalha</button>
+
+    <!-- Modal -->
+    <div id="heroModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle">Título do Herói</h2>
+        <img id="modalImage" src="" alt="Imagem do Herói">
+        <p id="modalDescription">Descrição do Herói</p>
+      </div>
+    </div>
+
+    <!-- Modal para Herói Vencedor -->
+    <div id="winnerModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="winnerTitle">Herói Vencedor</h2>
+        <img id="winnerImage" src="" alt="Imagem do Herói">
+        <p id="winnerDescription">Descrição do Herói</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
